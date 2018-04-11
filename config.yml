@@ -3,7 +3,7 @@ title: "Go Northwest 2018"
 canonifyurls: true
 theme: "hugo-conference"
 
-GoogleAnalytics: "UA-9232216-1"
+GoogleAnalytics: "UA-117356578-1"
 
 params:
   # Conference info
@@ -11,7 +11,7 @@ params:
   Description: "A Go conference in the Pacific Northwest"
   Date: "July 30"
   Price: "Only $100"
-  Venue: "Seattle Center"
+  Venue: "McCaw Hall - Seattle Center"
   Address: "321 Mercer Street"
   City:  "Seattle"
   State: "WA"
