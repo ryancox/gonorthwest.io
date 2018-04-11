@@ -1,2 +1,2 @@
 # gonorthwest.io
-Go Northwest
+Go Northwest static site
