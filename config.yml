@@ -1,0 +1,81 @@
+baseurl: "http://gonorthwest.io/"
+title: "Go Northwest 2018"
+canonifyurls: true
+theme: "hugo-conference"
+
+GoogleAnalytics: "UA-9232216-1"
+
+params:
+  # Conference info
+  Name: "Go Northwest 2018"
+  Description: "A Go conference in the Pacific Northwest"
+  Date: "July 30"
+  Price: "Only $100"
+  Venue: "Seattle Center"
+  Address: "321 Mercer Street"
+  City:  "Seattle"
+  State: "WA"
+  Images: ["/img/cover.png"]
+  GoogleMapsKey: "AIzaSyBzZaKwhrfgXeoNCOz9lnU9TTyDOejoFi4"
+
+  # Active sections on the website to deactivate comment out with '#'
+  # you can also change order here and it will reflect on page
+  Sections:
+    - about
+    - speakers
+    - location
+    - community
+    - sponsors
+    - organizers
+    #- contact
+
+  # Titles which you can translate to other languages
+  Titles:
+    about: "About"
+    location: "Location"
+    sponsors: "Sponsors"
+    community: "Community"
+    speakers: "Speakers"
+    organizers: "Organizers"
+    contact: "Contact"
+
+
+  # The Call To Action button at the header,
+  # If you don't want this, just remove the callToAction property.
+  CallToAction:
+    text: "Register now!"
+    link: "https://gonorthwest.ticketbud.com/gonortwest2018"
+
+  # List of Sponsors
+  Sponsors:
+    - name: "Axon"
+      logo: "/img/axon.png"
+      url: "http://www.axon.com"
+    - name: "Igneous Systems"
+      logo: "/img/igneous.png"
+      url: "http://www.igneoussystems.com"
+    - name: "Splunk"
+      logo: "/img/splunk.png"
+      url: "http://www.splunk.com"
+
+  # The conference organizers
+  Organizers:
+    - name: "Ryan Cox"
+      photo: "/img/ryan.png"
+      url: "https://twitter.com/ryancox"
+      bio: "Conference Chair"
+    - name: "Brittany Walentin"
+      photo: "/img/brittany.png"
+      url: "https://twitter.com/brittzsta"
+    - name: "Jake Sanders"
+      photo: "/img/jake.png"
+      url: "https://twitter.com/dekkagaijin"
+    - name: "Yves Junquerira"
+      photo: "/img/yves.png"
+      url: "https://twitter.com/cetico"
+    - name: "Samuel Karp"
+      photo: "/img/sam.png"
+      url: "https://twitter.com/samuelkarp"
+    - name: "Tiffany Jernigan"
+      photo: "/img/tiffany.png"
+      url: "https://twitter.com/tiffanyfayj"
