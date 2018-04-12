@@ -5,3 +5,31 @@
 <p>Our attendees are software developers who write in Go, whether they be novices, experts, contributors, or maintainers. Fun, quirky talks and audience participation are encouraged.</p>
 
 <p>Go Northwest seeks to build a community with our neighbors from all around the PNW, from Vancouver to Oregon, Washington to Montana.</p>
+
+<style type="text/css">
+
+.call-action-area {
+  margin: 40px 0 0 0;
+}
+
+.call-action-area .price {
+  color: #2b2b2b;
+}
+
+.call-action-area a:hover {
+  color: #2b2b2b;
+  text-decoration: none;
+}
+
+</style>
+
+<div class="call-action-area">
+  {{ with .price }}
+    <span class="price">{{ . }}</span>
+  {{ end }}
+
+  {{ with .calltoaction }}
+    <a href="{{ .link }}" class="call-action-link" target="_blank" title="{{ .text }}">{{ .text }}</a>
+  {{ end }}
+</div>
+
