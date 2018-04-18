@@ -23,6 +23,7 @@ params:
   Sections:
     - about
     - speakers
+    - diversity
     - location
     - community
     - sponsors
@@ -38,6 +39,7 @@ params:
     speakers: "Speakers"
     organizers: "Organizers"
     contact: "Contact"
+    diversity: "Diversity Scholarships"
 
 
   # The Call To Action button at the header,
