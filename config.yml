@@ -81,3 +81,31 @@ params:
     - name: "Tiffany Jernigan"
       photo: "/img/tiffany.png"
       url: "https://twitter.com/tiffanyfayj"
+
+  # List of speakers and the schedule times
+  Schedule:
+    - name: Tess Rinearson
+      photo: "/img/tessrinearson.jpg"
+      presentation:
+        title:
+      bio: "Tess Rinearson is a software engineer at Chain, where she
+      works on Chain Core, an open source, enterprise-grade blockchain.
+      Previously, Tess was a full-stack engineer at Medium, where she
+      helped build the social graph service and other infrastructure.
+      She studied computer science at the University of Pennsylvania
+      and Carnegie Mellon University."
+      company: "Chain"
+      link:
+        href: "https://twitter.com/_tessr"
+        text: "@_tessr"
+    - name: Brad Fitzpatrick
+      photo: "/img/bradfitz.jpeg"
+      presentation:
+        title:
+      bio: "Brad Fitzpatrick is a software engineer at Google working
+      on the Go programming language. He’s a hacker probably best known
+      for LiveJournal, memcached, Perkeep (née Camlistore), and OpenID."
+      company: "Google"
+      link:
+        href: "https://twitter.com/bradfitz"
+        text: "@bradfitz"
