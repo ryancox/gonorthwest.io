@@ -113,8 +113,8 @@ params:
       photo: "/img/crawshaw.jpg"
       presentation:
         title:
-      bio: "David Crawshaw is a software engineer. Until recently he worked 
-      at Google on the Go programming language. He is currently working on 
+      bio: "David Crawshaw is a software engineer. Until recently he worked
+      at Google on the Go programming language. He is currently working on
       something new."
       link:
         href: "https://twitter.com/davidcrawshaw"
@@ -123,18 +123,56 @@ params:
       photo: "/img/hdenbraver.jpg"
       presentation:
         title:
-      bio: "Hayley Denbraver is a web developer in San Diego, California. 
-      She is a career switcher who used to work as a licensed civil engineer. 
-      Her civil engineering projects included working on a hotel near Disneyland 
-      (It is awesome!) and anchoring air conditioners to hospital roofs 
-      (They are awesome too!). As a civil engineer she had a stamp with her 
-      name on it, but as a web developer you can find her name by using git 
-      blame. Hayley is an avid contributor to her company's #cute-animals 
-      slack channel. The best part of her job includes helping to onboard new, 
-      internally trained devs. She is a member of a two developer household, 
-      which you should consider before accepting her dinner party invitation. 
-      Hayley's 2018 stretch goal is to acquire a golden retriever--name 
+      bio: "Hayley Denbraver is a web developer in San Diego, California.
+      She is a career switcher who used to work as a licensed civil engineer.
+      Her civil engineering projects included working on a hotel near Disneyland
+      (It is awesome!) and anchoring air conditioners to hospital roofs
+      (They are awesome too!). As a civil engineer she had a stamp with her
+      name on it, but as a web developer you can find her name by using git
+      blame. Hayley is an avid contributor to her company's #cute-animals
+      slack channel. The best part of her job includes helping to onboard new,
+      internally trained devs. She is a member of a two developer household,
+      which you should consider before accepting her dinner party invitation.
+      Hayley's 2018 stretch goal is to acquire a golden retriever--name
       suggestions are welcome."
       link:
         href: "https://twitter.com/hayleydenb"
         text: "@hayleydenb"
+    - name: Jayapriya Surendran
+      photo: "/img/Jayapriya.jpg"
+      presentation:
+        title:
+      bio: "Jayapriya Surendran is a Web Services Engineer at Cloudflare,
+      currently working on the Security Engineering team. Prior to Cloudflare,
+      Jayapriya did her Masters in Computer Science at University of Minnesota,
+      Twin Cities majoring in Large Scale Distributed Systems. She is passionate
+      about creating intuitive software that have a positive impact on
+      millions of users worldwide."
+      link:
+        href: "https://twitter.com/jayapriya90"
+        text: "@jayapriya90"
+    - name: Gavin Chun Jin
+      photo: "/img/gavin.jpg"
+      presentation:
+        title:
+      bio: "Gavin Chun Jin is a software developer turned devops engineer.
+      He programs mostly in Python & Go. His interests are in cryptography,
+      philosophy & trail running. Once, he beat Ben Gibbard (lead singer
+      of Death Cab for Cutie) - in an ultra-marathon."
+      link:
+        href: "https://twitter.com/GavinGastown3"
+        text: "@GavinGastown3"
+    - name: Michael Sorens
+      photo: "/img/msorens.jpg"
+      presentation:
+        title:
+      bio: "Michael Sorens, a software engineer at Chef Software, is
+      passionate about the craft of software design and development--and
+      sharing that passion. He has over 100 published articles and wallcharts,
+      4 open-source projects, over 22K reputation on StackOverflow, and has
+      taught/presented both inside and outside the workplace. He has worked
+      in over 2 dozen languages, so brings a unique background to understanding
+      the Go ecosystem. His favorite project to date: designing and implementing
+      the world's smallest word processor, where the medium was silicon, the
+      printer 'head' was a laser, and the Declaration of Independence literally
+      fit on the head of a pin."
