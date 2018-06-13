@@ -176,3 +176,29 @@ params:
       the world's smallest word processor, where the medium was silicon, the
       printer 'head' was a laser, and the Declaration of Independence literally
       fit on the head of a pin."
+    - name: Jaana Burcu Dogan
+      photo: "/img/jbd.jpg"
+      presentation:
+        title:
+      bio: "Jaana B. Dogan is working on OpenCensus, an instrumentation framework
+      for distributed systems, at Google. Previously, she worked on Go and has a
+      decade-long experience in building developer platforms and tools."
+      link:
+        href: "https://twitter.com/rakyll"
+        text: "@rakyll"
+    - name: Jose Niño
+      photo: "/img/josenino.png"
+      presentation:
+        title:
+      bio: "Jose is the lead for Dev Tooling and Configuration on the
+      Networking team at Lyft. During the nearly two years he's been at Lyft,
+      Jose has been instrumental in creating systems to scale configuration of
+      Lyft's Envoy production environment for increasingly large deployments
+      and engineering orgs. He has worked as an open source Envoy maintainer,
+      and he has nurtured Envoy's growing community. More recently, Jose
+      has moved on to scaling Lyft's network load tolerance systems. Jose
+      has spoken about Envoy and other related topics at several venues,
+      most recently at Kubecon EU 2018."
+      link:
+        href: "https://twitter.com/junr03"
+        text: "@junr03"
