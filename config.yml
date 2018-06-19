@@ -202,3 +202,37 @@ params:
       link:
         href: "https://twitter.com/junr03"
         text: "@junr03"
+    - name: Sam Kreter
+      photo: "/img/samkreter.jpg"
+      presentation:
+        title:
+      bio: "Sam Kreter is a software engineer at Microsoft 
+      working on Azure Container Instances built on Kubernetes. 
+      Previously, he worked as a research assistant at the Center 
+      for Geospatial Intelligence, based out of the University of 
+      Missouri, building real-time video tracking software. He is 
+      obsessed with Go and loves bringing it into any project possible."
+      link:
+        href: "https://twitter.com/samkreter"
+        text: "@samkreter"
+    - name: Katrina Ellison Geltman
+      photo: "/img/katrina.png"
+      presentation:
+        title:
+      bio: "Katrina is a software engineer at cloud hosting provider DigitalOcean, 
+      where her team creates tools for building and interacting with virtual machines. 
+      In her spare time, I like skiing and hiking."
+      link:
+        href: "http://katrinaeg.com/"
+        text: "katrina"
+    - name: Jeffrey Richter
+      photo: "/img/jeffrey.jpeg"
+      presentation:
+        title:
+      bio: "Jeffrey Richter is an Azure Software Architect and authored several 
+      best-selling Windows & .NET programming books as well as many MSDN magazine 
+      articles. He is also a co-founder of Wintellect, a software consulting and 
+      training company where he has authored many videos available on WintellectNOW."
+      link:
+        href: "https://twitter.com/JeffRichter"
+        text: "@JeffRichter"
