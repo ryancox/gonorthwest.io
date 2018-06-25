@@ -23,7 +23,7 @@ params:
   Sections:
     - about
     - speakers
-    - schedule
+    #- schedule
     - diversity
     - location
     - community
@@ -85,8 +85,6 @@ params:
 
   # List of speakers and the schedule times
   Schedule:
-    - name: "Opening Comments"
-      time: "9h00"
     - name: Tess Rinearson
       photo: "/img/tessrinearson.jpg"
       presentation:
@@ -133,8 +131,6 @@ params:
       printer 'head' was a laser, and the Declaration of Independence literally
       fit on the head of a pin."
       company: "Chef"
-    - name: "Break"
-      time: "10h15"
     - name: Jeffrey Richter
       photo: "/img/jeffrey.jpeg"
       presentation:
@@ -171,8 +167,6 @@ params:
       link:
         href: "https://twitter.com/SoManyHs"
         text: "@SoManyHs"
-    - name: "Lunch"
-      time: "12h00"
     - name: Jose Niño
       photo: "/img/josenino.png"
       presentation:
@@ -216,8 +210,6 @@ params:
       link:
         href: "https://twitter.com/rakyll"
         text: "@rakyll"
-    - name: "Break"
-      time: "14h40"
     - name: Hayley Denbraver
       photo: "/img/hdenbraver.jpg"
       presentation:
@@ -262,8 +254,6 @@ params:
       link:
         href: "http://katrinaeg.com/"
         text: "katrina"
-    - name: "Break"
-      time: "15h45"
     - name: Jayapriya Surendran
       photo: "/img/Jayapriya.jpg"
       presentation:
@@ -291,5 +281,3 @@ params:
       link:
         href: "https://twitter.com/bradfitz"
         text: "@bradfitz"
-    - name: "Closing Comments"
-      time: "17h00"
