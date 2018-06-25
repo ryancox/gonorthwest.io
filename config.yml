@@ -23,6 +23,7 @@ params:
   Sections:
     - about
     - speakers
+    #- schedule
     - diversity
     - location
     - community
@@ -87,7 +88,8 @@ params:
     - name: Tess Rinearson
       photo: "/img/tessrinearson.jpg"
       presentation:
-        title:
+        title: An Over-Engineering Disaster with Macaroons
+        time: 9h05
       bio: "Tess Rinearson is a software engineer at Chain, where she
       works on Chain Core, an open source, enterprise-grade blockchain.
       Previously, Tess was a full-stack engineer at Medium, where she
@@ -98,31 +100,121 @@ params:
       link:
         href: "https://twitter.com/_tessr"
         text: "@_tessr"
-    - name: Brad Fitzpatrick
-      photo: "/img/bradfitz.jpeg"
+    - name: Sam Kreter
+      photo: "/img/samkreter.jpg"
       presentation:
-        title:
-      bio: "Brad Fitzpatrick is a software engineer at Google working
-      on the Go programming language. He’s a hacker probably best known
-      for LiveJournal, memcached, Perkeep (née Camlistore), and OpenID."
-      company: "Google"
+        title: Introduction to Modern Data Science with Go
+        time: 9h35
+      bio: "Sam Kreter is a software engineer at Microsoft
+      working on Azure Container Instances built on Kubernetes.
+      Previously, he worked as a research assistant at the Center
+      for Geospatial Intelligence, based out of the University of
+      Missouri, building real-time video tracking software. He is
+      obsessed with Go and loves bringing it into any project possible."
+      company: "Microsoft"
       link:
-        href: "https://twitter.com/bradfitz"
-        text: "@bradfitz"
+        href: "https://twitter.com/samkreter"
+        text: "@samkreter"
+    - name: Michael Sorens
+      photo: "/img/msorens.jpg"
+      presentation:
+        title: "Unit Testing: Tips from the Trenches"
+        time: 10h05
+      bio: "Michael Sorens, a software engineer at Chef Software, is
+      passionate about the craft of software design and development--and
+      sharing that passion. He has over 100 published articles and wallcharts,
+      4 open-source projects, over 22K reputation on StackOverflow, and has
+      taught/presented both inside and outside the workplace. He has worked
+      in over 2 dozen languages, so brings a unique background to understanding
+      the Go ecosystem. His favorite project to date: designing and implementing
+      the world's smallest word processor, where the medium was silicon, the
+      printer 'head' was a laser, and the Declaration of Independence literally
+      fit on the head of a pin."
+      company: "Chef"
+    - name: Jeffrey Richter
+      photo: "/img/jeffrey.jpeg"
+      presentation:
+        title: "Using Reflection to implement enumerated types"
+        time: 10h30
+      bio: "Jeffrey Richter is an Azure Software Architect and authored several
+      best-selling Windows & .NET programming books as well as many MSDN magazine
+      articles. He is also a co-founder of Wintellect, a software consulting and
+      training company where he has authored many videos available on WintellectNOW."
+      company: "Microsoft"
+      link:
+        href: "https://twitter.com/JeffRichter"
+        text: "@JeffRichter"
     - name: David Crawshaw
       photo: "/img/crawshaw.jpg"
       presentation:
-        title:
+        title: SQLite and Go
+        time: 11h00
       bio: "David Crawshaw is a software engineer. Until recently he worked
       at Google on the Go programming language. He is currently working on
       something new."
       link:
         href: "https://twitter.com/davidcrawshaw"
         text: "@davidcrawshaw"
+    - name: Hsing-Hui Hsu
+      photo: "/img/hsinghui.jpg"
+      presentation:
+        title: A Rubyist’s (poignant) guide to Go
+        time: 11h30
+      bio: "Hsing-Hui is a Gopher by day and Rubyist by night. She is an
+      alum of the first cohort of Ada Developers Academy and currently works
+      as an open source maintainer. She likes learning languages (both computer
+      and human), cleaning up code, and petting all the good doggos."
+      link:
+        href: "https://twitter.com/SoManyHs"
+        text: "@SoManyHs"
+    - name: Jose Niño
+      photo: "/img/josenino.png"
+      presentation:
+        time: 13h30
+        title: Go in the Envoy Ecosystem
+      bio: "Jose is the lead for Dev Tooling and Configuration on the
+      Networking team at Lyft. During the nearly two years he's been at Lyft,
+      Jose has been instrumental in creating systems to scale configuration of
+      Lyft's Envoy production environment for increasingly large deployments
+      and engineering orgs. He has worked as an open source Envoy maintainer,
+      and he has nurtured Envoy's growing community. More recently, Jose
+      has moved on to scaling Lyft's network load tolerance systems. Jose
+      has spoken about Envoy and other related topics at several venues,
+      most recently at Kubecon EU 2018."
+      company: "Lyft"
+      link:
+        href: "https://twitter.com/junr03"
+        text: "@junr03"
+    - name: Stephen McQuay
+      photo: "/img/stephen.jpg"
+      presentation:
+        time: 13h40
+        title: Go idioms discovered building a system package manager
+      bio: "Stephen studied mechanical engineering where he fell in love
+      with coaxing computers to help him solve problems. He has spent the
+      past five years building distributed systems and infrastructure software.
+      He enjoys making music, playing (and typically losing) the game of Go,
+      and hiking with his children."
+      link:
+        href: "https://twitter.com/smcquay"
+        text: "@smcquay"
+    - name: Jaana Burcu Dogan
+      photo: "/img/jbd.jpg"
+      presentation:
+        title: Tracing Go
+        time: 14h10
+      bio: "Jaana B. Dogan is working on OpenCensus, an instrumentation framework
+      for distributed systems, at Google. Previously, she worked on Go and has a
+      decade-long experience in building developer platforms and tools."
+      company: "Google"
+      link:
+        href: "https://twitter.com/rakyll"
+        text: "@rakyll"
     - name: Hayley Denbraver
       photo: "/img/hdenbraver.jpg"
       presentation:
-        title:
+        time: 14h55
+        title: "We Are 3000 Years Behind: Let's Talk About Engineering Ethics"
       bio: "Hayley Denbraver is a web developer in San Diego, California.
       She is a career switcher who used to work as a licensed civil engineer.
       Her civil engineering projects included working on a hotel near Disneyland
@@ -138,23 +230,11 @@ params:
       link:
         href: "https://twitter.com/hayleydenb"
         text: "@hayleydenb"
-    - name: Jayapriya Surendran
-      photo: "/img/Jayapriya.jpg"
-      presentation:
-        title:
-      bio: "Jayapriya Surendran is a Web Services Engineer at Cloudflare,
-      currently working on the Security Engineering team. Prior to Cloudflare,
-      Jayapriya did her Masters in Computer Science at University of Minnesota,
-      Twin Cities majoring in Large Scale Distributed Systems. She is passionate
-      about creating intuitive software that have a positive impact on
-      millions of users worldwide."
-      link:
-        href: "https://twitter.com/jayapriya90"
-        text: "@jayapriya90"
     - name: Gavin Chun Jin
       photo: "/img/gavin.jpg"
       presentation:
-        title:
+        time: 15h25
+        title: Implementing ping(8) in Go
       bio: "Gavin Chun Jin is a software developer turned devops engineer.
       He programs mostly in Python & Go. His interests are in cryptography,
       philosophy & trail running. Once, he beat Ben Gibbard (lead singer
@@ -162,77 +242,42 @@ params:
       link:
         href: "https://twitter.com/GavinGastown3"
         text: "@GavinGastown3"
-    - name: Michael Sorens
-      photo: "/img/msorens.jpg"
-      presentation:
-        title:
-      bio: "Michael Sorens, a software engineer at Chef Software, is
-      passionate about the craft of software design and development--and
-      sharing that passion. He has over 100 published articles and wallcharts,
-      4 open-source projects, over 22K reputation on StackOverflow, and has
-      taught/presented both inside and outside the workplace. He has worked
-      in over 2 dozen languages, so brings a unique background to understanding
-      the Go ecosystem. His favorite project to date: designing and implementing
-      the world's smallest word processor, where the medium was silicon, the
-      printer 'head' was a laser, and the Declaration of Independence literally
-      fit on the head of a pin."
-    - name: Jaana Burcu Dogan
-      photo: "/img/jbd.jpg"
-      presentation:
-        title:
-      bio: "Jaana B. Dogan is working on OpenCensus, an instrumentation framework
-      for distributed systems, at Google. Previously, she worked on Go and has a
-      decade-long experience in building developer platforms and tools."
-      link:
-        href: "https://twitter.com/rakyll"
-        text: "@rakyll"
-    - name: Jose Niño
-      photo: "/img/josenino.png"
-      presentation:
-        title:
-      bio: "Jose is the lead for Dev Tooling and Configuration on the
-      Networking team at Lyft. During the nearly two years he's been at Lyft,
-      Jose has been instrumental in creating systems to scale configuration of
-      Lyft's Envoy production environment for increasingly large deployments
-      and engineering orgs. He has worked as an open source Envoy maintainer,
-      and he has nurtured Envoy's growing community. More recently, Jose
-      has moved on to scaling Lyft's network load tolerance systems. Jose
-      has spoken about Envoy and other related topics at several venues,
-      most recently at Kubecon EU 2018."
-      link:
-        href: "https://twitter.com/junr03"
-        text: "@junr03"
-    - name: Sam Kreter
-      photo: "/img/samkreter.jpg"
-      presentation:
-        title:
-      bio: "Sam Kreter is a software engineer at Microsoft 
-      working on Azure Container Instances built on Kubernetes. 
-      Previously, he worked as a research assistant at the Center 
-      for Geospatial Intelligence, based out of the University of 
-      Missouri, building real-time video tracking software. He is 
-      obsessed with Go and loves bringing it into any project possible."
-      link:
-        href: "https://twitter.com/samkreter"
-        text: "@samkreter"
     - name: Katrina Ellison Geltman
       photo: "/img/katrina.png"
       presentation:
-        title:
-      bio: "Katrina is a software engineer at cloud hosting provider DigitalOcean, 
-      where her team creates tools for building and interacting with virtual machines. 
+        time: 15h35
+        title: "Code Generation: Go's Secret Weapon"
+      bio: "Katrina is a software engineer at cloud hosting provider DigitalOcean,
+      where her team creates tools for building and interacting with virtual machines.
       In her spare time, she likes skiing and hiking."
+      company: "Digital Ocean"
       link:
         href: "http://katrinaeg.com/"
         text: "katrina"
-    - name: Jeffrey Richter
-      photo: "/img/jeffrey.jpeg"
+    - name: Jayapriya Surendran
+      photo: "/img/Jayapriya.jpg"
       presentation:
-        title:
-      bio: "Jeffrey Richter is an Azure Software Architect and authored several 
-      best-selling Windows & .NET programming books as well as many MSDN magazine 
-      articles. He is also a co-founder of Wintellect, a software consulting and 
-      training company where he has authored many videos available on WintellectNOW."
+        time: 16h00
+        title: Secure Application Access Without a VPN
+      bio: "Jayapriya Surendran is a Web Services Engineer at Cloudflare,
+      currently working on the Security Engineering team. Prior to Cloudflare,
+      Jayapriya did her Masters in Computer Science at University of Minnesota,
+      Twin Cities majoring in Large Scale Distributed Systems. She is passionate
+      about creating intuitive software that have a positive impact on
+      millions of users worldwide."
+      company: "Cloudflare"
       link:
-        href: "https://twitter.com/JeffRichter"
-        text: "@JeffRichter"
+        href: "https://twitter.com/jayapriya90"
+        text: "@jayapriya90"
+    - name: Brad Fitzpatrick
+      photo: "/img/bradfitz.jpeg"
+      presentation:
+        time: 16h30
+        title: Go 1.11 and beyond
+      bio: "Brad Fitzpatrick is a software engineer at Google working
+      on the Go programming language. He’s a hacker probably best known
+      for LiveJournal, memcached, Perkeep (née Camlistore), and OpenID."
+      company: "Google"
+      link:
+        href: "https://twitter.com/bradfitz"
+        text: "@bradfitz"

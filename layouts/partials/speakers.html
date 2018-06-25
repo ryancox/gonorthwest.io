@@ -1,8 +1,5 @@
 <h2 class="section-title">{{ .titles.speakers }}</h2>
 
-<p>Our Call for Proposals is now closed. A full speaker list and complete agenda will be posted soon.</p>
-
-
 <ul class="speakers-list">
 {{ range $speaker := (where .schedule "name" "ne" nil) }}
   <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
