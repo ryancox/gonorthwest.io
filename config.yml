@@ -258,13 +258,11 @@ params:
       photo: "/img/Jayapriya.jpg"
       presentation:
         time: 16h00
-        title: Secure Application Access Without a VPN
-      bio: "Jayapriya Surendran is a Web Services Engineer at Cloudflare,
-      currently working on the Security Engineering team. Prior to Cloudflare,
-      Jayapriya did her Masters in Computer Science at University of Minnesota,
-      Twin Cities majoring in Large Scale Distributed Systems. She is passionate
-      about creating intuitive software that have a positive impact on
-      millions of users worldwide."
+        title: Probabilistic Data Structures Using Go
+      bio: "Jayapriya Surendran is a Software Engineer at Cloudflare currently building
+      web services using Go. Prior to Cloudflare, Jayapriya worked at Athenahealth,
+      One Kings Lane, and Uber. She is passionate about Large Scale Distributed Systems
+      and enjoys reading, running and traveling during her free time."
       company: "Cloudflare"
       link:
         href: "https://twitter.com/jayapriya90"
