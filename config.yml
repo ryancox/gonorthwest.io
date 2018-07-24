@@ -1,4 +1,4 @@
-baseurl: "http://gonorthwest.io/"
+baseurl: "https://gonorthwest.io/"
 title: "Go Northwest 2018"
 canonifyurls: true
 theme: "hugo-conference"
