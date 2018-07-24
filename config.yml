@@ -21,12 +21,12 @@ params:
   # Active sections on the website to deactivate comment out with '#'
   # you can also change order here and it will reflect on page
   Sections:
-    - about
-    - speakers
-    #- schedule
-    - diversity
     - location
+    - about
     - community
+    - schedule
+    - speakers
+    #- diversity
     - sponsors
     - organizers
     #- contact
@@ -41,6 +41,7 @@ params:
     organizers: "Organizers"
     contact: "Contact"
     diversity: "Diversity Scholarships"
+    schedule: "Schedule"
 
 
   # The Call To Action button at the header,
@@ -85,11 +86,14 @@ params:
 
   # List of speakers and the schedule times
   Schedule:
+    - presentation:
+        time: 9:00
+        title: Kickoff
     - name: Tess Rinearson
       photo: "/img/tessrinearson.jpg"
       presentation:
         title: An Over-Engineering Disaster with Macaroons
-        time: 9h05
+        time: 9:05
       bio: "Tess Rinearson is a software engineer at Chain, where she
       works on Chain Core, an open source, enterprise-grade blockchain.
       Previously, Tess was a full-stack engineer at Medium, where she
@@ -104,7 +108,7 @@ params:
       photo: "/img/samkreter.jpg"
       presentation:
         title: Introduction to Modern Data Science with Go
-        time: 9h35
+        time: 9:35
       bio: "Sam Kreter is a software engineer at Microsoft
       working on Azure Container Instances built on Kubernetes.
       Previously, he worked as a research assistant at the Center
@@ -119,7 +123,7 @@ params:
       photo: "/img/msorens.jpg"
       presentation:
         title: "Unit Testing: Tips from the Trenches"
-        time: 10h05
+        time: 10:05
       bio: "Michael Sorens, a software engineer at Chef Software, is
       passionate about the craft of software design and development--and
       sharing that passion. He has over 100 published articles and wallcharts,
@@ -131,11 +135,14 @@ params:
       printer 'head' was a laser, and the Declaration of Independence literally
       fit on the head of a pin."
       company: "Chef"
+    - presentation:
+        time: 10:15
+        title: Break
     - name: Jeffrey Richter
       photo: "/img/jeffrey.jpeg"
       presentation:
         title: "Using Reflection to implement enumerated types"
-        time: 10h30
+        time: 10:30
       bio: "Jeffrey Richter is an Azure Software Architect and authored several
       best-selling Windows & .NET programming books as well as many MSDN magazine
       articles. He is also a co-founder of Wintellect, a software consulting and
@@ -148,7 +155,7 @@ params:
       photo: "/img/crawshaw.jpg"
       presentation:
         title: SQLite and Go
-        time: 11h00
+        time: 11:00
       bio: "David Crawshaw is a software engineer. Until recently he worked
       at Google on the Go programming language. He is currently working on
       something new."
@@ -159,7 +166,7 @@ params:
       photo: "/img/hsinghui.jpg"
       presentation:
         title: A Rubyist’s (poignant) guide to Go
-        time: 11h30
+        time: 11:30
       bio: "Hsing-Hui is a Gopher by day and Rubyist by night. She is an
       alum of the first cohort of Ada Developers Academy and currently works
       as an open source maintainer. She likes learning languages (both computer
@@ -167,10 +174,13 @@ params:
       link:
         href: "https://twitter.com/SoManyHs"
         text: "@SoManyHs"
+    - presentation:
+        time: 12:00
+        title: Lunch
     - name: Jose Niño
       photo: "/img/josenino.png"
       presentation:
-        time: 13h30
+        time: 1:30
         title: Go in the Envoy Ecosystem
       bio: "Jose is the lead for Dev Tooling and Configuration on the
       Networking team at Lyft. During the nearly two years he's been at Lyft,
@@ -188,7 +198,7 @@ params:
     - name: Stephen McQuay
       photo: "/img/stephen.jpg"
       presentation:
-        time: 13h40
+        time: 1:40
         title: Go idioms discovered building a system package manager
       bio: "Stephen studied mechanical engineering where he fell in love
       with coaxing computers to help him solve problems. He has spent the
@@ -202,7 +212,7 @@ params:
       photo: "/img/jbd.jpg"
       presentation:
         title: Tracing Go
-        time: 14h10
+        time: 2:10
       bio: "Jaana B. Dogan is working on OpenCensus, an instrumentation framework
       for distributed systems, at Google. Previously, she worked on Go and has a
       decade-long experience in building developer platforms and tools."
@@ -210,10 +220,13 @@ params:
       link:
         href: "https://twitter.com/rakyll"
         text: "@rakyll"
+    - presentation:
+        time: 2:40
+        title: Break
     - name: Hayley Denbraver
       photo: "/img/hdenbraver.jpg"
       presentation:
-        time: 14h55
+        time: 2:55
         title: "We Are 3000 Years Behind: Let's Talk About Engineering Ethics"
       bio: "Hayley Denbraver is a web developer in San Diego, California.
       She is a career switcher who used to work as a licensed civil engineer.
@@ -233,7 +246,7 @@ params:
     - name: Gavin Chun Jin
       photo: "/img/gavin.jpg"
       presentation:
-        time: 15h25
+        time: 3:25
         title: Implementing ping(8) in Go
       bio: "Gavin Chun Jin is a software developer turned devops engineer.
       He programs mostly in Python & Go. His interests are in cryptography,
@@ -245,7 +258,7 @@ params:
     - name: Katrina Ellison Geltman
       photo: "/img/katrina.png"
       presentation:
-        time: 15h35
+        time: 3:35
         title: "Code Generation: Go's Secret Weapon"
       bio: "Katrina is a software engineer at cloud hosting provider DigitalOcean,
       where her team creates tools for building and interacting with virtual machines.
@@ -254,10 +267,13 @@ params:
       link:
         href: "http://katrinaeg.com/"
         text: "katrina"
+    - presentation:
+        time: 3:50
+        title: Break
     - name: Jayapriya Surendran
       photo: "/img/Jayapriya.jpg"
       presentation:
-        time: 16h00
+        time: 4:00
         title: Probabilistic Data Structures Using Go
       bio: "Jayapriya Surendran is a Software Engineer at Cloudflare currently building
       web services using Go. Prior to Cloudflare, Jayapriya worked at Athenahealth,
@@ -270,7 +286,7 @@ params:
     - name: Brad Fitzpatrick
       photo: "/img/bradfitz.jpeg"
       presentation:
-        time: 16h30
+        time: 4:30
         title: Go 1.11 and beyond
       bio: "Brad Fitzpatrick is a software engineer at Google working
       on the Go programming language. He’s a hacker probably best known
@@ -279,3 +295,6 @@ params:
       link:
         href: "https://twitter.com/bradfitz"
         text: "@bradfitz"
+    - presentation:
+        time: 5:00
+        title: Closing Remarks
