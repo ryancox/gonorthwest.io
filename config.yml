@@ -25,6 +25,7 @@ params:
     - about
     - community
     - schedule
+    - accessibility
     - speakers
     #- diversity
     - sponsors
@@ -42,6 +43,7 @@ params:
     contact: "Contact"
     diversity: "Diversity Scholarships"
     schedule: "Schedule"
+    accessibility: "Accessibility"
 
 
   # The Call To Action button at the header,
