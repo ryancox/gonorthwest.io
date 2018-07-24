@@ -11,7 +11,7 @@ params:
   Description: "A Go conference in the Pacific Northwest"
   Date: "July 30"
   Price: "Only $100"
-  Venue: "McCaw Hall - Seattle Center"
+  Venue: "Nesholm Family Lecture Hall, McCaw Hall - Seattle Center"
   Address: "321 Mercer Street"
   City:  "Seattle"
   State: "WA"
@@ -111,12 +111,11 @@ params:
       presentation:
         title: Introduction to Modern Data Science with Go
         time: 9:35
-      bio: "Sam Kreter is a software engineer at Microsoft
-      working on Azure Container Instances built on Kubernetes.
-      Previously, he worked as a research assistant at the Center
-      for Geospatial Intelligence, based out of the University of
-      Missouri, building real-time video tracking software. He is
-      obsessed with Go and loves bringing it into any project possible."
+      bio: "Sam Kreter is a software engineer at Microsoft working on the
+      Cloud Native Compute Team. Previously, he worked as a research assistant
+      at the Center for Geospatial Intelligence, based out of the University
+      of Missouri, building real-time video tracking software. He is obsessed
+      with Go and loves bringing it into any project possible."
       company: "Microsoft"
       link:
         href: "https://twitter.com/samkreter"
