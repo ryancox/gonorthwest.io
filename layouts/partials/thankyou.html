@@ -1,0 +1,39 @@
+<h2 class="section-title">{{ .titles.thankyou }}</h2>
+
+<p>
+That's a wrap! Thank you for coming to Go Northwest and making this new conference so successful! Shout-out to our amazing speakers and sponsors who were critical to even having a conference in the first place!
+</p>
+
+<p>
+Video recordings of the talks are on their way!  Check back here or on Twitter for updates when they become available.
+</p>
+
+<h4>By the Numbers</h4>
+<style>
+.by-the-numbers-list {
+  font-size: 1.6em;
+  line-height: 1.6em;
+  margin-bottom: 1.4em;
+}
+.by-the-numbers-list li {
+  list-style: disc;
+}
+</style>
+
+<ul class="by-the-numbers-list">
+  <li>First year of Go Northwest!</li>
+  <li>3 sponsors</li>
+  <li>14 speakers</li>
+  <li>280 attendees</li>
+</ul>
+
+<p>
+Without the support of our community, we would not have been able to create this.  We hope you enjoyed it!
+</p>
+
+<div class="call-action-area">
+  {{ with .twitter }}
+    <a href="{{ .link }}" class="call-action-link" target="_blank" title="{{ .text }}">{{ .text }}</a>
+  {{ end }}
+</div>
+

@@ -21,6 +21,7 @@ params:
   # Active sections on the website to deactivate comment out with '#'
   # you can also change order here and it will reflect on page
   Sections:
+    - thankyou
     - location
     - about
     - community
@@ -44,13 +45,17 @@ params:
     diversity: "Diversity Scholarships"
     schedule: "Schedule"
     accessibility: "Accessibility"
-
+    thankyou: "Thank you!"
 
   # The Call To Action button at the header,
   # If you don't want this, just remove the callToAction property.
   CallToAction:
     text: "Register now!"
     link: "https://gonorthwest.ticketbud.com/gonortwest2018"
+
+  Twitter:
+    text: "Follow us on Twitter!"
+    link: "https://twitter.com/gonorthwestio"
 
   # List of Sponsors
   Sponsors:
